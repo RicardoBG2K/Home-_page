@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -12,7 +13,7 @@
    
 }
 .image1{
-    height: 50px;
+    height: 90px;
     
 }
 main, .content{
@@ -123,12 +124,12 @@ nav .menu{
   text-align: center;
 }
 .center .title{
-  color: rgb(18, 92, 0);
+  color: #bf930d;
   font-size: 55px;
   font-weight: 600;
 }
 .center .sub_title{
-  color: #00ff0d;
+  color: #bf930d;
   font-size: 52px;
   font-weight: 600;
 }
@@ -141,7 +142,7 @@ nav .menu{
   border-radius: 5px;
   border: none;
   margin: 0 10px;
-  border: 2px solid white;
+  border: 2px solid #bf930d;
   font-size: 20px;
   font-weight: 500;
   padding: 0 10px;
@@ -150,20 +151,20 @@ nav .menu{
   transition: all 0.3s ease;
 }
 .center .btns button:first-child{
-  color: #00660088;
+  color: hsla(44, 100%, 39%, 0.966);
   background: none;
 }
 .btns button:first-child:hover{
-  background: #2d9404;
+  background: #bf930d;
   color: black;
 }
 .center .btns button:last-child{
   background: none;
-  color: #ffffff;
+  color: #bf930d;
 }
 .center button:last-child:hover{
   background: #ffffff25;
-  color: rgb(51, 255, 0);
+  color: #bf930d;
 }
 .video video {
   position: absolute;
@@ -189,21 +190,21 @@ nav .menu{
 }
 .trabalhe ul li{
   display: inline-block;
-  color: #00ff0d;
+  color: #bf930d;
   margin-left: 15px;
   height: 50px;
  
 }
 .trabalhe ul li :hover{
-  border-bottom: 3px solid #015f0685;
+  border-bottom: 3px solid #ffee0085;
 
  
 }
 .trabalhe ul li a:hover{
-  color: #00ff0d;
+  color: #806306;
 }
 .trabalhe ul li a{
-  color: #94c78788;
+  color: #ffd90088;
   text-decoration: none;
   font-size: 18px;
   text-transform: uppercase;
@@ -228,7 +229,7 @@ nav .menu{
   margin-top: 10px;
 }
 .col-100{
-  background-color: rgba(223, 245, 255, 0.062);;
+  background-color: rgba(198, 24, 204, 0);;
   width: 100%;
   float: left;
   position: relative;
@@ -289,5 +290,19 @@ ul{
   }
 
 
- 
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 100%, 0.596);
+    mix-blend-mode: overlay;
+}
+#parag {
+color: rgba(17, 17, 17, 0);
+}
+
+
+ 
